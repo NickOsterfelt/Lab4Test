@@ -1,0 +1,46 @@
+Nicholas Osterfelt
+103368359
+8/24/2016
+Software Development Methods and Tools
+------------------LAB 1---------------------------------
+Command         |What it does?                         |
+--------------------------------------------------------
+date		 displays the current date, time and timezone
+ls -ltr		 lists the items in the current director
+cd ...		 goes to the specified directory after cd
+pwd 		 prints the path name of the current directory
+who		 shows list of users who are currently logged on
+whoami		 shows the user that entered the command
+man man		 opens the manual for the manual
+env		 prints list of environment variables
+--------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+Command                   |Goal                                                     | 
+-------------------------------------------------------------------------------------
+mkdir cs3308 && cd cs3308  Make a directory named 'cs3308' and move into that directory			
+mv cs3308 csci3308	   Rename your directory 'cs3308' to 'csci3308'
+cd 			   Change to the root directory
+cp filename		   make a copy of a file
+rm filenamecopy		   Delete the copy of a file
+mkdir tmp && rmdirq tmp    Makes a directory name 'tmp'. Then deletes it		
+cat filename		   View contents of a file
+vi filename		   "                      "
+head filename		   views beginning of file
+tail filename 		   views end of file
+grep the * - lR	           lists any files containing the word "the"
+find / -name books.txt     lists full path to all files name books.txt
+zip -r dir.tar files	   zips the contents of directory into dir.tar
+unzip dir.tar -d tmp	   unzips the contents of dir.tar to newly created tmp directory
+touch filename		   modifies files timestamp to be the current time and creates it if not already created
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+Command                    |Does what?                                               |
+--------------------------------------------------------------------------------------
+sort -d Lab1		    Sort the file based on the userid
+sort -k 3n Lab1		    Sort file based on UID
+sort -k 4n Lab1 && sort -k 3n Lab1	Sort file based on GID first then UID
+grep -n Marx 		    Searches for "Marx" and returns line numbers where it occurs
+wc -l filename		    Returns the number of lines in the file
+
